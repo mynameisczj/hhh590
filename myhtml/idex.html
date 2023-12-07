@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/main_style.css">
+    <script src="../js/headFixed.js"></script>
+    <script src="../js/home.js"></script>
+    <title>科学防疫</title>
+</head>
+<body class="bg flex-col" οnlοad="openwin()" onscroll="navScroll()">
+    <header class="box"id="header">
+        <nav class="flex-row" id="navTag">
+            <img class="logo"src="../img/logo.png" alt="">
+            <ul class="nav" >
+                <li><a  class="current-page" href="">首页</a></li>
+                <li><a href="../myhtml/news.html">新闻热点</a></li>
+                <li><a href="../myhtml/knowledge.html">防疫知识</a></li>
+                <li><a href="../myhtml/media.html">媒体公益</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="box">
+        <section class="home">
+            <div class="home-slogan">
+                <h2>坚定信心 同舟共济</h2>
+                <h2>科学防治 精准施策</h2>
+            </div>
+            <div >
+                <img class="home-poster"src="../img/poster.png" alt="">
+            </div>
+        </section>
+        <section class="card">
+            <h6 class="nav-title">防疫知识</h6>
+            <ul class="know flex-row">
+                <li onclick="window.open('../myhtml/knowledge.html')" class="news-item flex-col">
+                    <div class="know-pic" style="background-image: url(../img/know1.jpg);"></div>
+                    <span class="item-title">预防肺炎戴过的口罩该怎么处理？</span>
+                </li>
+                <li onclick="window.open('../myhtml/knowledge.html')" class="news-item flex-col">
+                    <div class="know-pic" style="background-image: url(../img/know2.jpeg);"></div>
+                    <span class="item-title">中国疾控中心：做到这六条预防冠状病毒</span>
+                </li>
+                <li onclick="window.open('../myhtml/knowledge.html')" class="news-item flex-col">
+                    <div class="know-pic" style="background-image: url(../img/know3.jpg);"></div>
+                    <span class="item-title">中国疾控中心：新型肺炎个人防控指南</span>
+                </li>
+                <li onclick="window.open('../myhtml/knowledge.html')" class="news-item flex-col">
+                    <div class="know-pic" style="background-image: url(../img/know4.jpg);"></div>
+                    <span class="item-title">中国疾控中心：公共场所预防指南</span>
+                </li>
+            </ul>
+            <div class="more" >
+                <span onclick="window.open('../myhtml/knowledge.html')">更多</span>
+            </div>
+        </section>
+    </div>
+<div id="popWin"class="mask">
+    <div class="news-win">
+        <div class="win-canncel">
+            <span onclick="WinOut()">x</span>
+        </div>
+        <div class="win-content">
+            <h6 id = "winTitle"class="item-title"></h6>
+            <p id="winContent"></p>
+        </div>
+    </div>
+</div>
+<footer>
+    <div></div>
+</footer>
+</body>
+</html>
+<html lang="zh-Cn">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .bottom_navi{
+                height:32px;
+                background-color: aliceblue;
+            }
+            #back_index{
+                font-size: 16px;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bottom_navi">
+            <a href=" https://peakzi1.github.io/521yyds/"id="back_index">返回寝室</a>
+        </div>
+    </body>
+</html>
